@@ -3,7 +3,7 @@ published: true
 ---
 Otra prueba de publicación
 
-![Acuarela](http://rafacomino.tk/images/proyectos/acuarela-thumb.jpg)
+![Acuarela](http://rafacomino.tk/images/proyectos/africa-thumb.jpg)
 
 ## h2
 adfad
