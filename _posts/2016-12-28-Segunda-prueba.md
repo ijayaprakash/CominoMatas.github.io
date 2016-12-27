@@ -3,7 +3,7 @@ published: true
 ---
 Otra prueba de publicación
 
-![Acuarelaa](http://rafacomino.tk/images/proyectos/acuarelas/1.jpg)
+![Acuarela](http://rafacomino.tk/images/proyectos/acuarelas/1.jpg)
 
 ## adfsdf
 adfad
