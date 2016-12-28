@@ -270,6 +270,11 @@ nav {
     font-size: 22px;
     font-style: italic;
   }
+  
+  .entry {
+  	padding-top: .5em;
+    border-top: 1px solid $lightGray;
+  }
 
   .comments {
     margin-top: 10px;
