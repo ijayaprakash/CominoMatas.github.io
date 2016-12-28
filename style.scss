@@ -19,8 +19,9 @@ html {
 }
 
 body {
-	background: $white;
-  font: 15px/1.4 $helvetica;
+  background: $white;
+  //font: 15px/1.4 $helvetica;
+  font: $openSans;
   color: $darkGray;
 }
 
