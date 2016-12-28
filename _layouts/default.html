@@ -85,11 +85,34 @@
 
     -->
     
-    <div class="barras-overflow-abajo animated fadeInDownBig">
+    <section class="bienvenido">
+        <div class="texto-encabezado">
+            <div class="container">
+                <h3 class="animated bounceIn">Blog de Ilustración</h3>
+                <p class="animated bounceIn">Rafael Comino Matas</p>
+            </div>
+        </div>
+    </section>
+    
+    <div class="barras-overflow wow slideInRight" data-wow-delay="1s" style="top: -50px">
+        <svg height="50" width="100%" viewBox="0 0 400 100" preserveAspectRatio="none">
+            <polygon points="0,100 400,0 400,100" style="fill:#FDBF01" />  
+        </svg> 
+    </div>
+
+    <div class="barras-overflow-abajo wow fadeInDownBig">
         <svg height="200" width="100%" viewBox="0 0 400 100" preserveAspectRatio="none">
             <polygon points="0,0 0,100 600,0" style="fill:#FDBF01" />
         </svg>
     </div>
+    
+    
+    
+    <!-- <div class="barras-overflow-abajo animated fadeInDownBig">
+        <svg height="200" width="100%" viewBox="0 0 400 100" preserveAspectRatio="none">
+            <polygon points="0,0 0,100 600,0" style="fill:#FDBF01" />
+        </svg>
+    </div> -->
     
     <div id="main" role="main" class="container">
       {{ content }}
