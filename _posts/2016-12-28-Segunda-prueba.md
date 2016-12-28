@@ -1,7 +1,6 @@
 ---
 published: true
 ---
-
 ![Acuarela](http://rafacomino.tk/images/proyectos/africa-thumb.jpg)
 
 Otra prueba de publicación
