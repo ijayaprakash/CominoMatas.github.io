@@ -79,9 +79,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    //color: $blue;
-    color: $darkGray;
-    text-decoration: none;
+    color: $blue;
   }
 }
 
@@ -272,6 +270,11 @@ nav {
     font-size: 22px;
     font-style: italic;
   }
+  
+ .posts .post h1 a:hover {
+ 	color: $darkGray;
+    text-decoration: none;
+ }
   
   .entry {
   	padding-top: .5em;
