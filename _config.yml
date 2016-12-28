@@ -87,3 +87,5 @@ exclude:
   - CNAME
 
 excerpt_separator: <!--more-->
+
+gems: spanisDate
