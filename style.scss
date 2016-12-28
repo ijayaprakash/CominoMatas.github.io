@@ -454,6 +454,39 @@ nav {
      color: #FDBF01;
      transition: all .5s ease;
  }
+ 
+ @media (min-width:768px) {
+     //------
+     //-- menuvar
+     //------
+     #menu-principal {
+         height: auto !important;
+         display: block;
+         order: 1;
+         flex: 0 1 auto;
+         margin-left: auto;
+     }
+     #menu-principal ul {
+         display: flex;
+         margin: 0 0 0;
+     }
+     #menu-principal ul li a {
+         padding: .5rem;
+         text-transform: capitalize;
+         margin: 0 .3rem;
+         border-top: 0;
+         border-bottom: 3px solid transparent;
+         transition: all .5s ease;
+     }
+     #menu-principal ul li.active a {
+         color: $principal;
+         border-bottom: 3px solid;
+     }
+     #menu-principal ul a:hover {
+         color: $secundario;
+         border-bottom: 3px solid;
+     }
+ }
  //-----------------------//
  //-- fin pie de página---//
  //-----------------------//
