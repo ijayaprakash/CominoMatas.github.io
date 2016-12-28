@@ -14,7 +14,7 @@ published: true
       </div>
 
       <div class="date">
-    Publicado el {{ post.date | spanishDate }}
+    Publicado el {{ post.date | date: "%e de %B de %Y" }}
   	  </div>
       
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Seguir leyendo...</a>
