@@ -1,11 +1,14 @@
 ---
 published: true
 ---
+---
+excerpt_separator: <!--more-->
+---
 ![Acuarela](http://rafacomino.tk/images/proyectos/africa-thumb.jpg)
 
 Otra prueba de publicación
 
-![Acuarela](http://rafacomino.tk/images/proyectos/africa-thumb.jpg)
+<!--more-->
 
 ## h2
 adfad
