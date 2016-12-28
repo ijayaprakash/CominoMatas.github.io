@@ -12,12 +12,6 @@ module Jekyll
             day+' '+MONTHS[month]+' '+year
         end
 
-        def html5date(date)
-            day = time(date).strftime("%d")
-            month = time(date).strftime("%m")
-            year = time(date).strftime("%Y")
-            year+'-'+month+'-'+day
-        end
     end
 end
 
