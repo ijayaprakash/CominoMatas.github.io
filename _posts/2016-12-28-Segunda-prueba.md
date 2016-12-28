@@ -1,9 +1,8 @@
 ---
 published: true
 ---
----
-excerpt_separator: <!--more-->
----
+<!--more-->
+
 ![Acuarela](http://rafacomino.tk/images/proyectos/africa-thumb.jpg)
 
 Otra prueba de publicación
