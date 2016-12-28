@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  //margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -329,6 +329,7 @@ nav {
      margin-bottom: .0rem;
      font-size: 1.3rem;
      color: gainsboro;
+     font-weight: normal;
  }
  nav .container a img {
      height: 30px;
