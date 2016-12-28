@@ -311,3 +311,32 @@ footer {
     height: 0px;
     z-index: -1;
 }
+
+//----------------------//
+ //-- pie de página -----//
+ //----------------------//
+ .piedepagina {
+     background: #171717;
+     color: grey;
+     text-align: center;
+     font-size: .9rem;
+ }
+ .piedepagina .redes-sociales {
+     display: flex;
+     justify-content: center;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+ .piedepagina .redes-sociales a {
+     color: grey;
+     margin: 0 .7rem;
+     font-size: 2rem;
+ }
+ .piedepagina .redes-sociales a:hover {
+     color: $principal;
+     transition: all .5s ease;
+ }
+ //-----------------------//
+ //-- fin pie de página---//
+ //-----------------------//
