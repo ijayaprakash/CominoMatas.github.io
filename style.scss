@@ -80,6 +80,8 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     //color: $blue;
+    color: #darkGray;
+    text-decoration: none;
   }
 }
 
