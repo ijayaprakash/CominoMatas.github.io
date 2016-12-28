@@ -535,10 +535,15 @@ nav {
  .tabla-indice h2 {
  	text-align: center;
  }
+ .tabla-indice ul {
+ 	list-style: none;
+ }
  .tabla-indice a {
  	text-decoration: none;
  }
- 
+ .tabla-indice a .title {
+ 	text-decoration: none;
+ }
   //---------------------------------//
  //--Fin Índice de contenidos---//
  //----------------------------------//
