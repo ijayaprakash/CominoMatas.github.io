@@ -463,6 +463,26 @@ nav {
  /* ------------------ */
 
 
+.bienvenido {
+    background: url(http://rafacomino.tk/images/fondo-contacto.jpg) no-repeat center top;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed !important;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.texto-encabezado {
+    text-align: center;
+}
+.texto-encabezado .container h3 {
+    font-size: 4rem;
+}
+
+
+
 .barras-overflow {       //---Barras decorativas inclinadas
     position: relative;
     top: -100px;
