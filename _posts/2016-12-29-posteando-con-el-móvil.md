@@ -1,7 +1,8 @@
 ---
-published: false
+published: true
 Tag: prueba
 Posted: null
+Published: null
 ---
 ## Probando a postear desde el teléfono
 
