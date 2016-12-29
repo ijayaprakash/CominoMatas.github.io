@@ -2,7 +2,7 @@
 
   <h2>Últimas entradas del blog</h2>
 {% for post in site.posts limit:3 %}
-  <aside>
+  <aside class="recientes">
   	  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       <div class="date">
     Publicado el {{ post.date | date: "%e-%m-%Y" }}
