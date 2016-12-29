@@ -521,6 +521,7 @@ nav {
 }
 .barra-nav .container .migas-pan {
 	display: flex;
+    flex-wrap: wrap;
  }
 .barra-nav .container .migas-pan a:hover {
 	text-decoration:none;
