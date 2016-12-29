@@ -6,4 +6,7 @@ Published: null
 ---
 ## Probando a postear desde el teléfono
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Con Prose.io, editor Markdown online y comectado directamente a mi cuenta de Github, mepermite escribir un post en el móvil desde el navegador.
+
+Incluso editar el código fuente de miblog.
+
