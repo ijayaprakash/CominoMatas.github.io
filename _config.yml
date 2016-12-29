@@ -87,3 +87,6 @@ exclude:
   - CNAME
 
 excerpt_separator: <!--more-->
+
+paginate: 3
+paginate_path: "/page:num/"
