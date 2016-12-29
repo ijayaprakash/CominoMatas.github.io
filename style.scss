@@ -500,6 +500,18 @@ nav {
     z-index: -1;
 }
 
+//--------------------------------------//
+ //-- barra de navegación del blog -----//
+ //-------------------------------------//
+.barra-nav .container {
+	display: flex;
+}
+.barra-nav .container .ind-link{
+	margin-left: auto;
+}
+
+
+
 //----------------------//
  //-- pie de página -----//
  //----------------------//
