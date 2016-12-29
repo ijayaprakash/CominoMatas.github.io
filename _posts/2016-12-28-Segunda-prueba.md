@@ -2,9 +2,14 @@
 published: true
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cumque voluptates impedit harum mollitia sit. Deserunt at pariatur non! Similique perferendis eum magni vel, tenetur sit. Veritatis tempore corporis cum?
-<center>
+
+<p align="center">
+  <img src="http://rafacomino.tk/images/proyectos/africa-thumb.jpg"/>
+</p>
+
+
 ![Acuarela](http://rafacomino.tk/images/proyectos/africa-thumb.jpg)
-</center>
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cumque voluptates impedit harum mollitia sit. Deserunt at pariatur non! Similique perferendis eum magni vel, tenetur sit. Veritatis tempore corporis cum?
 
 <!--more-->
