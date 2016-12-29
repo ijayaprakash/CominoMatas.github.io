@@ -540,11 +540,12 @@ nav {
  }
  .tabla-indice li {
     margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
+    
  }
  .tabla-indice a {
  	text-decoration: none;
+    display: flex;
+    align-items: center;
  }
  .tabla-indice a .title {
  	text-decoration: none;
