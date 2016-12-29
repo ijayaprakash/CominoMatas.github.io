@@ -537,7 +537,11 @@ nav {
  }
  .tabla-indice ul {
  	list-style: none;
+ }
+ .tabla-indice li {
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
  }
  .tabla-indice a {
  	text-decoration: none;
