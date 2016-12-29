@@ -518,12 +518,9 @@ nav {
 	margin-left: auto;
     text-align: right;
 }
-.barra-nav .container .migas-pan a:nth-child(2)::hover {
-	margin-left: auto;
-    text-align: right;
-    text-decoration:none;
-    color: $darkGray;
-}
+.barra-nav .container .migas-pan a:hover {
+	text-decoration:none;
+ }
 
 
 
