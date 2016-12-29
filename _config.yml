@@ -89,4 +89,4 @@ exclude:
 excerpt_separator: <!--more-->
 
 paginate: 3
-paginate_path: "page:num"
+paginate_path: "/blog/page:num/"
