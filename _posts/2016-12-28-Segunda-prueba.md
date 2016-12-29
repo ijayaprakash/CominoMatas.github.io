@@ -7,12 +7,13 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cumque volupt
   <img src="http://rafacomino.tk/images/proyectos/africa-thumb.jpg"/>
 </p>
 
-
-![Acuarela](http://rafacomino.tk/images/proyectos/africa-thumb.jpg)
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cumque voluptates impedit harum mollitia sit. Deserunt at pariatur non! Similique perferendis eum magni vel, tenetur sit. Veritatis tempore corporis cum?
 
 <!--more-->
+
+![Acuarela](http://rafacomino.tk/images/proyectos/africa-thumb.jpg)
+
+
 
 ## h2
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cumque voluptates impedit harum mollitia sit. Deserunt at pariatur non! Similique perferendis eum magni vel, tenetur sit. Veritatis tempore corporis cum?
