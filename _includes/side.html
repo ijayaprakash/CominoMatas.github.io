@@ -1,1 +1,11 @@
-
+<!-- This loops through the paginated posts -->
+<div>
+{% for post in paginator.posts %}
+  <aside>
+  	  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="date">
+    Publicado el {{ post.date | date: "%e-%m-%Y" }}
+    </div>
+  </aside>  
+{% endfor %}
+</div>
