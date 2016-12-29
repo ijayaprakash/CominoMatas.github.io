@@ -540,18 +540,20 @@ nav {
  }
  .tabla-indice li {
     margin-bottom: 1rem;
-    
+    display: flex;
+    align-items: center;
  }
  .tabla-indice a {
  	text-decoration: none;
     display: flex;
     align-items: center;
+    width: 100%;
  }
  .tabla-indice a .title {
- 	text-decoration: none;
+    margin: 0;
  }
  .tabla-indice a .date {
- 	
+ 	margin-left: auto;
  }
   //---------------------------------//
  //--Fin Índice de contenidos---//
