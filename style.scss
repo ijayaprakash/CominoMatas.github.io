@@ -503,6 +503,14 @@ nav {
 //--------------------------------------//
  //-- barra de navegación del blog -----//
  //-------------------------------------//
+ .barra-nav {
+    background: transparent;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+ }
+ 
 .barra-nav .container {
 	display: flex;
 }
