@@ -1,6 +1,7 @@
 ---
 layout: default
 title: My Blog
+published: true
 ---
 
 <!-- This loops through the paginated posts -->
@@ -9,9 +10,9 @@ title: My Blog
   <p class="author">
     <span class="date">{{ post.date }}</span>
   </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
+  <div class="entry">
+        {{ post.excerpt }}
+</div>
 {% endfor %}
 
 <!-- Pagination links -->
