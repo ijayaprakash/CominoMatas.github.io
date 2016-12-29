@@ -16,4 +16,4 @@ Incluso editar el código fuente de miblog.
 
 Mi proximo paso será añadir paginado aleste blog.
 
-**** Con el teléfono en posición horizontal, sí aparece la barra de herramientas de Prose
+****Acabo de ver que**** Con el teléfono en posición horizontal, sí aparece la barra de herramientas de Prose
