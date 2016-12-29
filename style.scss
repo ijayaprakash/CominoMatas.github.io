@@ -511,13 +511,18 @@ nav {
     padding-bottom: .5rem;
     margin-top: .5rem;
  }
- 
 .barra-nav .container {
 	display: flex;
 }
 .barra-nav .container .ind-link{
 	margin-left: auto;
     text-align: right;
+}
+.barra-nav .container .migas-pan a:nth-child(2)::hover {
+	margin-left: auto;
+    text-align: right;
+    text-decoration:none;
+    color: $darkGray;
 }
 
 
