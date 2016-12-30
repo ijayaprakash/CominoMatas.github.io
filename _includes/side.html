@@ -11,14 +11,13 @@
 {% endfor %}
 </div>
 
-<div id="archives">
+<div id="recientes">
+  <a href="{{site.baseurl}}/categorias"><h3>Categorías</h3></a>
 {% for category in site.categories %}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-    
-    <h3 class="category-head">{{ category_name }}</h3>
+    <div id="#{{ category_name | slugize }}"></div>    
+    <h4 class="category-head">{{ category_name }}</h4>
   </div>
 {% endfor %}
 </div>
