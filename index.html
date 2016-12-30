@@ -26,14 +26,14 @@ published: true
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Anteriores -</a>
+    <a href="{{ paginator.previous_page_path }}" class="previous">Recientes -</a>
   {% else %}
-    <span class="previous">Anteriores -</span>
+    <span class="previous">Recientes -</span>
   {% endif %}
   <span class="page_number ">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">- Siguientes</a>
+    <a href="{{ paginator.next_page_path }}" class="next">- Anteriores</a>
   {% else %}
-    <span class="next ">- Siguientes</span>
+    <span class="next ">- Anteriores</span>
   {% endif %}
 </div>
