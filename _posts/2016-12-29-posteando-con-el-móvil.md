@@ -4,7 +4,7 @@ title: Posteando desde el móvil
 categories: Categoría1
 tags: [Tag1]
 ---
-## Probando a postear desde el teléfono
+#### Probando a postear desde el teléfono
 
 Con Prose.io, editor Markdown online y comectado directamente a mi cuenta de Github, mepermite escribir un post en el móvil desde el navegador.
 
