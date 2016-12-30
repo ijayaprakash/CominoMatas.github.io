@@ -1,9 +1,9 @@
 <!-- This loops through the paginated posts -->
 <div class="recientes">
-  <h2>Últimas entradas del blog</h2>
+  <h3>Últimas entradas del blog</h3>
 {% for post in site.posts limit:3 %}
   <aside>
-  	  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+  	  <div><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
       <div class="date">
     Publicado el {{ post.date | date: "%e-%m-%Y" }}
     </div>
