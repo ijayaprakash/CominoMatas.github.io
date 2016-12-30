@@ -1,5 +1,8 @@
 ---
 published: true
+title: Probando Markdown
+categories: Categoría2
+tags: [Tag1, Tag2]
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cumque voluptates impedit harum mollitia sit. Deserunt at pariatur non! Similique perferendis eum magni vel, tenetur sit. Veritatis tempore corporis cum?
 
