@@ -1,5 +1,6 @@
 ---
 published: true
+title: Posteando desde el móvil
 categories: Categoría1
 tags: [Tag1]
 ---
