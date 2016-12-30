@@ -1,5 +1,8 @@
 ---
 published: true
+title: Probando hoja de índices
+categories: Categoría2
+tags: [Tag1]
 ---
 ## A New Post
 
