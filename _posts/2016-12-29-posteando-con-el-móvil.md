@@ -1,8 +1,7 @@
 ---
 published: true
-Tag: prueba
-Posted: null
-Published: null
+categories: Categoría1
+tags: [Tag1]
 ---
 ## Probando a postear desde el teléfono
 
