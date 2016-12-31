@@ -532,6 +532,9 @@ nav {
 //--------------------------------------//
  //-- barra de paginación del blog -----//
  //-------------------------------------//
+.pagination {
+	dispay: flex;
+}
 .page_number{
 	//border: 1px solid $lightGray;
     text-align: center;
