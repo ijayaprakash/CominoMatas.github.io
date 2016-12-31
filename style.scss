@@ -589,9 +589,9 @@ nav {
  .recientes {
  	margin: 1rem 0;
     padding: 1rem 0 .5rem .5rem;
-    border: 1px solid $lightGray;
+    //border: 1px solid $lightGray;
     border-radius: 5px;
-    background: $lightGray;
+    background: rgba(238, 238, 238, 0.65);
  }
  
  .recientes h3 {
