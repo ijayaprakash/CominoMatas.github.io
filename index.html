@@ -28,9 +28,9 @@ published: true
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Recientes -</a>
+    <a href="{{ paginator.previous_page_path }}" class="previous btn btn-secondary"><i class="fa fa-chevron-right" aria-hidden="true"></i>&nbsp; Recientes</a>
   {% else %}
-    <span class="previous">Recientes -</span>
+    <span class="previous btn btn-outline-secondary">Recientes</span>
   {% endif %}
   <span class="page_number ">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
