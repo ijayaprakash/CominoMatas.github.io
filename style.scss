@@ -534,6 +534,7 @@ nav {
  //-------------------------------------//
 .pagination {
 	display: flex;
+    flex-wrap: wrap;
 }
 .page_number{
 	//border: 1px solid $lightGray;
