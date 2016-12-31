@@ -536,11 +536,15 @@ nav {
 	display: flex;
     flex-wrap: wrap;
 }
-.page_number{
-	//border: 1px solid $lightGray;
+.page_number {
     text-align: center;
     border-radius: 0px;
     flex: 1 1 auto;
+}
+.page_number:hover {
+    color: #373a3c;
+    background-color: white;
+    border-color: $lightGray;
 }
 .previous {
 	border-radius: 5px 0 0 5px;
