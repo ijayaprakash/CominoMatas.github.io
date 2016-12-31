@@ -6,6 +6,10 @@ published: true
 <article class="post">
   <h1>{{ page.title }}</h1>
   
+  <div class="date">
+    Publicado el {{ page.date | date: "%e-%m-%Y" }}
+  </div>
+  
   <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
@@ -20,10 +24,6 @@ published: true
 
   <div class="entry">
     {{ content }}
-  </div>
-
-  <div class="date">
-    Publicado el {{ page.date | date: "%e-%m-%Y" }}
   </div>
 
   {% include disqus.html %}
