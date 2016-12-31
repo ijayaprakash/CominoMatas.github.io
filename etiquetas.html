@@ -5,7 +5,7 @@ published: true
 ---
 
 <div id="archives">
-{% for category in site.tags %}
+{% for tags in site.tags %}
   <div class="archive-group">
     {% capture tag_name %}{{ tags | first }}{% endcapture %}
     <div id="#{{ tag_name | slugize }}"></div>
