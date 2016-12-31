@@ -1,4 +1,4 @@
-<!-- This loops through the paginated posts -->
+<!-- Muestra en la barra lateral los 3 últimos posts-->
 <div class="recientes">
   <h3>Últimas entradas del blog</h3>
 {% for post in site.posts limit:3 %}
@@ -11,6 +11,8 @@
 {% endfor %}
 </div>
 
+<!-- Muestra las categorías -->
+
 <div class="recientes">
   <a href="{{site.baseurl}}/categorias"><h3>Categorías</h3></a>
 {% for category in site.categories %}
@@ -19,5 +21,19 @@
     <div id="#{{ category_name | slugize }}"></div>    
     <h5 class="category-head">{{ category_name }}</h5>
   </div>
+{% endfor %}
+</div>
+
+<!-- Muestra las Tags -->
+
+<div class="recientes">
+  <a href="{{site.baseurl}}/categorias"><h3>Etiquetas</h3></a>
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+ <span class="site-tag">
+    <div style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+            {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+    </div>
+</span>
 {% endfor %}
 </div>
