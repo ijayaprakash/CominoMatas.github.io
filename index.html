@@ -18,7 +18,9 @@ published: true
         {{ post.excerpt }}
       </div>
       
-	  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more btn btn-primary">Seguir leyendo...</a>
+	  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more btn btn-primary">Seguir leyendo
+    <span class="fa chevron-right"></span>
+    </a>
   </article>  
 {% endfor %}
 </div>
