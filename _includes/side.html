@@ -1,6 +1,6 @@
 <!-- Muestra en la barra lateral los 3 últimos posts-->
 <div class="recientes">
-  <h3>Últimas entradas del blog</h3>
+  <h3>Últimas entradas</h3>
 {% for post in site.posts limit:3 %}
   <aside>
   	  <div><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
