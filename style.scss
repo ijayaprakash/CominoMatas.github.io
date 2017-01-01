@@ -526,12 +526,13 @@ nav {
  //-- barra de navegación del blog -----//
  //-------------------------------------//
  .barra-nav {
-    background: rgba(238, 238, 238, 0.43);
+    background: #fdbf01;
+    //background: rgba(238, 238, 238, 0.43);
     //border-top: white 1px solid;
     //border-bottom: white 1px solid;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    margin-top: .5rem;
+    //margin-top: .5rem;
  }
 .barra-nav .container {
 	display: flex;
