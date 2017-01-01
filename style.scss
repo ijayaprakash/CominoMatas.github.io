@@ -508,18 +508,19 @@ nav {
 .barras-overflow {       //---Barras decorativas inclinadas
     position: relative;
     top: -100px;
-    z-index: 1; 
     height: 0px;
     z-index: -1;
 }
 .barras-overflow-abajo {
     position: relative;
     bottom: 0px;
-    z-index: 1; 
     height: 0px;
     z-index: -1;
 }
 
+.barras-overflow #deFooter {       //---Barras decorativas inclinadas
+    top: -20px;
+}
 //--------------------------------------//
  //-- barra de navegación del blog -----//
  //-------------------------------------//
