@@ -471,10 +471,6 @@ nav {
          color: #6bbf85;
          border-bottom: 3px solid;
      }
-     
-     .texto-encabezado img {
-    width: 300px;
-		}
  }
  /* ---------------------- */
  /* Fin icono menú animado */
@@ -503,7 +499,10 @@ nav {
 .texto-encabezado img {
     width: 200px;
 }
-
+@media (min-width:768px) {
+.texto-encabezado img {
+    width: 300px;
+}
 
 .barras-overflow {       //---Barras decorativas inclinadas
     position: relative;
