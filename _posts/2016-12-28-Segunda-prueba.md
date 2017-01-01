@@ -2,7 +2,9 @@
 published: true
 title: Probando Markdown
 categories: Categoría2
-tags: [Tag1, Tag2]
+tags:
+  - Tag1
+  - Tag2
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cumque voluptates impedit harum mollitia sit. Deserunt at pariatur non! Similique perferendis eum magni vel, tenetur sit. Veritatis tempore corporis cum?
 
@@ -20,7 +22,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt cumque volupt
 </p>
 
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XHECZDy_ctg" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/XHECZDy_ctg" frameborder="0" allowfullscreen></iframe>
 </p>
 
 ## h2
