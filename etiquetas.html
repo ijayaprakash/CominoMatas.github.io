@@ -5,7 +5,7 @@ published: true
 ---
 
 {% for tags in site.tags %}
-    <span id="etiquetas" style="font-size: {{ tags | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
+    <span id="etiquetas" style="font-size: {{ tags | last | size | times: 4 | plus: 80 }}%">
         <a href="#{{ tags | first | slugize }}">
             {{ tags | first }}
         </a>
