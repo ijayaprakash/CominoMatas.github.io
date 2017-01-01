@@ -4,6 +4,14 @@ title: Etiquetas
 published: true
 ---
 
+{% for tags in site.tags %}
+    <li style="font-size: {{ tags | last | size | times: 100 | divided_by: site.categories.size }}%">
+        <a href="/{{ tags | first | slugize }}/">
+            {{ tags | first }}
+        </a>
+    </li>
+{% endfor %}
+
 <div id="archives">
 {% for tags in site.tags %}
   <div class="archive-group">
