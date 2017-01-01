@@ -28,6 +28,7 @@
 
 <div class="recientes">
   <a href="{{site.baseurl}}/etiquetas"><h3>Etiquetas</h3></a>
+  <div class="side-tags">
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
  <span id="etiquetas">
@@ -36,4 +37,5 @@
     </i>
 </span>
 {% endfor %}
+    <div>
 </div>
