@@ -5,11 +5,11 @@ published: true
 ---
 
 {% for tags in site.tags %}
-    <div style="font-size: {{ tags | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
+    <span style="font-size: {{ tags | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
         <a href="#{{ tags | first | slugize }}">
             {{ tags | first }}
         </a>
-    </div>
+    </span>
 {% endfor %}
 
 <div id="archives">
