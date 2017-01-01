@@ -6,7 +6,7 @@ published: true
 
 {% for tags in site.tags %}
     <li style="font-size: {{ tags | last | size | times: 100 | divided_by: site.categories.size | plus: 70 }}%">
-        <a href="#{{ tags | first | slugize }}/">
+        <a href="#{{ tags | first | slugize }}">
             {{ tags | first }}
         </a>
     </li>
