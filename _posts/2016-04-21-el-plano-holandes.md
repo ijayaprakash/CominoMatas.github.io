@@ -1,7 +1,4 @@
 ---
-published: false
----
----
 published: true
 title: El Plano Holandés
 categories: Ilustración
