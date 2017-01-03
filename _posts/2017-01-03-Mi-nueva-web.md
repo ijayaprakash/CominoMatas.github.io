@@ -18,10 +18,8 @@ Esta web a parte de ser una herramienta más para hacer visible mi trabajo como 
 
 <!--more-->
 
-"Bootstrap 4, responsive, movile first, flex box, html 5, css 3, sass, jekyll, etc..."
+> Bootstrap 4, responsive, movile first, flex box, html 5, css 3, sass, jekyll, etc...
 
 Todas estas palabras que en mi época, cuando aprendí HTML no existían, y que ahora son el ABC en la realización de páginas web.
 
 Para mi ha sido muy divertido aprender todo esto y poder realizar mi página como ejemplo final.
-
-
