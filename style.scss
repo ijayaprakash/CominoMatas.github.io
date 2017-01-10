@@ -620,11 +620,20 @@ nav {
 }
 .fa-envelop {
     color: #444444;
+    transition: all .3s ease;
+}
+.fa-envelop:hover {
+    background-color: #444444;
+    color: white;
 }
 .fa-reddit {
     color: #ff5700;
+    transition: all .3s ease;
 }
-
+.fa-reddit:hover {
+    background-color: #ff5700;
+    color: white;
+}
 
 
 //----------------------//
