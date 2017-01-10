@@ -583,7 +583,8 @@ nav {
     border-radius: 4px;
     padding: 5px 10px 5px 10px;
 }
-.share-button:hover {
+.share-button a:hover {
+	text-decoration: none;
 }
 
 .fa-facebook-official {
