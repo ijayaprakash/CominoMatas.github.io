@@ -634,19 +634,19 @@ nav {
     background-color: #ff5700;
     color: white;
 }
-.fa-tumblr {
+#share-box .fa-tumblr {
     color: #36465d;
     transition: all .3s ease;
 }
-.fa-tumblr:hover {
+#share-box .fa-tumblr:hover {
     background-color: #36465d;
     color: white;
 }
-.fa-pinterest {
+#share-box .fa-pinterest {
     color: #b7071b;
     transition: all .3s ease;
 }
-.fa-pinterest:hover {
+#share-box .fa-pinterest:hover {
     background-color: #b7071b; 
     color: white;
 }
