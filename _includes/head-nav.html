@@ -1,0 +1,61 @@
+<!-- Añado mi barra de navegación y cabecera -->
+    <head>
+        <nav class="navbar navbar-fixed-top navbar-dark">
+            <div class="container">
+                <a class="navbar-brand logotipo" href="http://cominoilustracion.com"><img src="{{ site.avatar }}" alt="logo">
+                    <h3>Rafael Comino Matas</h3></a>
+
+                <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
+                    <div id="nav-icon1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <nav id="menu-principal" class="collapse">
+                    <ul>
+                        <li><a href="http://cominoilustracion.com/index.html">Inicio</a></li>
+                        <li><a href="http://cominoilustracion.com/proyectos.html">Proyectos</a></li>
+                        <li><a href="http://cominoilustracion.com/portfolio.html">Portfolio</a></li>
+                        <li><a href="http://cominoilustracion.com/contacto.html">Contacto</a></li>
+                      <li class="active"><a href="{{ site.baseurl }}/">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </head>
+  
+    <section class="bienvenido">
+        <div class="texto-encabezado">
+            <div class="container">
+              	<img class="animated bounceIn" src="https://cominoilustracion.com/images/medalla.svg"></img>
+                <!-- <h3 class="animated bounceIn">Blog de Ilustración</h3>
+                <p class="animated bounceIn">Rafael Comino Matas</p> -->
+            </div>
+        </div>
+    </section>
+    
+    <div class="barras-overflow" style="top: -50px; z-index: 99;">
+        <svg height="50" width="100%" viewBox="0 0 400 100" preserveAspectRatio="none">
+            <polygon points="0,100 400,0 400,100" style="fill:#FDBF01" />  
+        </svg> 
+    </div>
+
+    <!-- <div class="barras-overflow-abajo animated fadeInDownBig">
+        <svg height="200" width="100%" viewBox="0 0 400 100" preserveAspectRatio="none">
+            <polygon points="0,0 0,100 600,0" style="fill:#FDBF01" />
+        </svg>
+    </div> -->
+    
+    <div class="barra-nav">
+    	<div class="container">
+          <div class="migas-pan">
+            <a href="{{ site.baseurl }}/">Inicio del Blog /&nbsp;</a>
+            <div>{{ page.title }}</div>
+          </div>
+          <div class="ind-link">
+            <a href="{{ site.baseurl }}/indice-contenido/">Índice de contenidos</a>
+            <a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a>
+          </div>
+    	</div>
+    </div>
