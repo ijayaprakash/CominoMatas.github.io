@@ -12,6 +12,16 @@
     <![endif]-->
    
     <!-- premitir la precarga de CSSs -->
+    <style>
+      	nav .container a img {
+    	height: 30px;
+    	width: 30px;
+    	order: -1;
+		}
+      	.texto-encabezado img {
+    	width: 300px;
+		}
+    </style>
     <script>
         (function(w) {
             "use strict";
@@ -135,16 +145,7 @@
     <!-- Carga de rss -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     
-	<style>
-      	nav .container a img {
-    	height: 30px;
-    	width: 30px;
-    	order: -1;
-		}
-      	.texto-encabezado img {
-    	width: 300px;
-		}
-    </style>
+	
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
