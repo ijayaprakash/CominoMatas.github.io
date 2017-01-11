@@ -635,7 +635,14 @@ nav {
     background-color: #ff5700;
     color: white;
 }
-
+.fa-tumblr {
+    color: #36465d;
+    transition: all .3s ease;
+}
+.fa-tumblr:hover {
+    background-color: #36465d;
+    color: white;
+}
 
 //----------------------//
  //-- pie de página -----//
