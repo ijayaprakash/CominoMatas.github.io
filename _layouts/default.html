@@ -125,8 +125,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     </noscript>
     <!-- Añadir mis estilos -->
-     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> 
-    
+     <link rel="preload" type="text/css" href="{{ site.baseurl }}/style.css" as="style" onload="this.rel='stylesheet'"/> 
+    <noscript>
+       <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    </noscript>
     <!-- Carga de favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico" >
     
