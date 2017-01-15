@@ -5,7 +5,7 @@ categories: Categoría1
 tags:
   - Tag1
 ---
-![Markdown logo](https://commons.wikimedia.org/wiki/File:Markdown-mark.svg#/media/File:Markdown-mark.svg)
+![Markdown logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
 
 #### Probando a postear desde el teléfono
 
