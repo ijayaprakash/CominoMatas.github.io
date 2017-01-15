@@ -4,7 +4,7 @@
 
 <p align="center"><img src="images/captura-miweb.jpg" width="400px"></p>
 
-# [My Blog](https://blog.cominoilustracion.com), Made with
+# [My Blog](https://blog.cominoilustracion.com), made with
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
 
@@ -22,6 +22,9 @@ In a few minutes you'll be set up with a minimal, responsive blog like the one b
 
 ## [My Blog](https://blog.cominoilustracion.com) includes
 
+- Bootstrap 4 responsive side column
+- Animate.css
+- Fontawesome
 - Pagination
 - Categories and Tags pages
 - Disqus
