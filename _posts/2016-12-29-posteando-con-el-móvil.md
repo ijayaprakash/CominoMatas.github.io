@@ -7,7 +7,7 @@ tags:
 ---
 ![Markdown logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
 
-#### Probando a postear desde el teléfono
+#### Probando a postear desde el teléfono móvil
 
 Con Prose.io, editor Markdown online y conectado directamente a mi cuenta de Github, me permite escribir un post en el móvil desde el navegador.
 
