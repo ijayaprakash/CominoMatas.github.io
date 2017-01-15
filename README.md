@@ -32,6 +32,7 @@ In a few minutes you'll be set up with a minimal, responsive blog like the one b
 - Sitemap
 - Feed
 - SEO meta tags
+- 404.md
 
 From webJeda:
 
