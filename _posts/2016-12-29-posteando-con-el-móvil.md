@@ -5,7 +5,7 @@ categories: Categoría1
 tags:
   - Tag1
 ---
-![Markdown image]({{site.baseurl}}/https://upload.wikimedia.org/wikipedia/commons/9/94/Markdown_Syntax_in_gedit.png)
+![Markdown image](https://upload.wikimedia.org/wikipedia/commons/9/94/Markdown_Syntax_in_gedit.png)
 
 
 #### Probando a postear desde el teléfono
