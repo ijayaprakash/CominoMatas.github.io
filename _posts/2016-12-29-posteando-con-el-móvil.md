@@ -1,9 +1,11 @@
 ---
 published: true
 title: Posteando desde el móvil
-categories: Categoría1
+categories: Web
 tags:
-  - Tag1
+  - Prose.io
+  - Markdown
+  - Jekyll
 ---
 ![Markdown logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
 
