@@ -11,7 +11,7 @@ tags:
 ---
 
 <p align="center">
-  <img src="https://cominoilustracion.com/images/proyectos/miscelaneo/5.jpg"/>
+  <img src="https://cominoilustracion.com/images/proyectos/miscelaneo/5.jpg" width="70%" />
 </p>
 
 El arte de la pintura, desde tiempos inmemorables, siempre ha sido permeable al desarrollo tecnológico, la invención y obtención de nuevos pigmentos fue una obsesión para civilizaciones ya perdidas, el púrpura de Tiro (obtenido a partir de las cañaíllas) desde los cretenses, o el azúl ultramar (a partir de lapislázuli) desde el siglo VI en Afganistán.
