@@ -12,6 +12,11 @@ published: true
 		margin: .3rem .3rem;
 		width: 32%;
 	}
+	article.card .card-block {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
 </style>
 
 <!-- This loops through the paginated posts -->
@@ -31,7 +36,7 @@ published: true
        		 {{ post.excerpt }}
       	  </div>
       
-	  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more btn btn-primary card-footer">Seguir leyendo
+	  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more btn btn-primary">Seguir leyendo
     		<i class="fa fa-chevron-right" aria-hidden="true"></i>
     	  </a>
 	</div>
