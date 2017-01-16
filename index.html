@@ -1,0 +1,45 @@
+---
+layout: default
+title: RCM Blog
+published: true
+---
+
+<!-- This loops through the paginated posts -->
+<div class="posts">
+{% for post in paginator.posts %}
+  <article class="card"> 
+	  
+	 <div class="card-block">
+		 
+  	  <h1 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      	  <div class="date">
+    		Publicado el {{ post.date | date: "%e-%m-%Y" }}
+  	  </div>
+    
+      	  <div class="entry card-text">
+       		 {{ post.excerpt }}
+      	  </div>
+      
+	  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more btn btn-primary">Seguir leyendo
+    		<i class="fa fa-chevron-right" aria-hidden="true"></i>
+    	  </a>
+	</div>
+  </article>  
+{% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous btn btn-secondary"><i class="fa fa-chevron-left" aria-hidden="true"></i>&nbsp; Prev.</a>
+  {% else %}
+    <span class="previous btn btn-secondary">Prev.</span>
+  {% endif %}
+  <span class="btn btn-secondary page_number">Página: {{ paginator.page }} de {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next btn btn-secondary align-middle">Ant. &nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+  {% else %}
+    <span class="next btn btn-secondary">Ant.</span>
+  {% endif %}
+</div>
