@@ -3,11 +3,16 @@ layout: default
 title: Prueba Cards
 published: true
 ---
+<style>
+	article.card {
+		width: 50%;
+	}
+</style>
 
 <!-- This loops through the paginated posts -->
 <div class="posts">
 {% for post in site.posts %}
-  <article class="card" style="width: 20rem;"> 
+  <article class="card"> 
 	  
 	 <div class="card-block">
 		 
