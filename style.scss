@@ -323,8 +323,40 @@ nav {
 @import "highlights";
 @import "svg-icons";
 
-
+//-----------------
 //--- my mods -----
+//-----------------
+
+//-----------------
+//--- Cards -------
+//-----------------
+
+	div.posts {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	article.card {
+		margin: .3rem .3rem;
+		width: 32%;
+	}
+	article.card .card-block {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	article.card .card-block a {
+		margin-top: auto;
+	}
+         @media only screen and (max-width: 992px) {
+            article.card {
+                 width: 48%;
+            }
+        }
+        @media only screen and (max-width: 767px) {
+            article.card {
+                 width: 100%;
+            }
+        }
 
 /* ------------------ */
  /* ----- Nav bar mods */
