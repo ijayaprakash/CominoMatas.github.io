@@ -1,6 +1,6 @@
 ---
 published: true
-title: cominoilustracion.com Nueva Web
+title: cominoilustracion .com Nueva Web
 categories: Ilustración
 tags:
   - Ilustración
