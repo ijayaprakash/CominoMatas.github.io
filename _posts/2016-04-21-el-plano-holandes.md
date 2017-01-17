@@ -14,9 +14,11 @@ tags:
   <img src="https://cominoilustracion.com/images/proyectos/miscelaneo/5.jpg" />
 </p>
 
-El arte de la pintura, desde tiempos inmemorables, siempre ha sido permeable al desarrollo tecnológico, la invención y obtención de nuevos pigmentos fue una obsesión para civilizaciones ya perdidas, el púrpura de Tiro (obtenido a partir de las cañaíllas) desde los cretenses, o el azúl ultramar (a partir de lapislázuli) desde el siglo VI en Afganistán.
+El arte de la pintura, desde tiempos inmemorables, siempre ha sido permeable al desarrollo tecnológico, la invención y obtención de nuevos pigmentos fue una obsesión para civilizaciones ya perdidas.
 
 <!--more-->
+
+El púrpura de Tiro (obtenido a partir de las cañaíllas) desde los cretenses, o el azúl ultramar (a partir de lapislázuli) desde el siglo VI en Afganistán.
 
 Más tarde en el renacimiento llegaron los estudios sobre óptica, perspectiva y las cámaras oscuras y claras (dispositivos para proyectar una imagen sobre una superficie plana) que se sospecha que utilizaron algunos grandes maestros como Caravaggio, aunque en este caso me parece que es un intento de mundanizar un poco al genio. En el caso de Vermeer parece haber muchas más pruebas que lo confirman.
 
