@@ -1,6 +1,6 @@
 ---
 published: true
-title: cominoilustracion .com Nueva Web
+title: comino ilustracion .com Nueva Web
 categories: Ilustración
 tags:
   - Ilustración
@@ -14,9 +14,9 @@ tags:
 
 Les presento mi nueva web personal sobre ilustración. En ella podrán ver una selección de mis mejores trabajos.
 
-Esta web a parte de ser una herramienta más para hacer visible mi trabajo como ilustrador, ha sido todo un reto a la hora de aprender las distintas técnicas de programación web que se utilizan en la actualidad.
-
 <!--more-->
+
+Esta web a parte de ser una herramienta más para hacer visible mi trabajo como ilustrador, ha sido todo un reto a la hora de aprender las distintas técnicas de programación web que se utilizan en la actualidad.
 
 > Bootstrap 4, responsive, movile first, flex box, html 5, css 3, sass, jekyll, etc...
 
