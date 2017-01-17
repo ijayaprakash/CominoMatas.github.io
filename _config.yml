@@ -92,5 +92,5 @@ exclude:
 
 excerpt_separator: <!--more-->
 
-paginate: 3
+paginate: 6
 paginate_path: "/page:num/"
