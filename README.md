@@ -22,7 +22,7 @@ In a few minutes you'll be set up with a minimal, responsive blog like the one b
 
 ## [My Blog](https://blog.cominoilustracion.com) includes
 
-- Bootstrap 4 responsive side column
+- Bootstrap 4 responsive cards system
 - Animate.css
 - Fontawesome
 - Pagination
@@ -39,4 +39,4 @@ From webJeda:
 - SSL certificate
 - Share bar
 
-
+> Sorry for the dirty code... it´s not my best
