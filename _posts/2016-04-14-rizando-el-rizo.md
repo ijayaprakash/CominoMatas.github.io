@@ -1,13 +1,14 @@
 ---
-published: true
 title: Rizando el Rizo
-categories: Ilustración
+date: 2016-04-14 00:00:00 Z
+categories:
+- Ilustración
 tags:
-  - ilustración
-  - comic
-  - planos
-  - digital
-  - recursos
+- ilustración
+- comic
+- planos
+- digital
+- recursos
 ---
 
 <p align="center">

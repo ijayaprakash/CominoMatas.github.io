@@ -1,11 +1,12 @@
 ---
-published: true
 title: comino ilustracion .com Nueva Web
-categories: Ilustración
+date: 2017-01-03 00:00:00 Z
+categories:
+- Ilustración
 tags:
-  - Ilustración
-  - Bootstap 4
-  - web
+- Ilustración
+- Bootstap 4
+- web
 ---
 
 <p align="center">

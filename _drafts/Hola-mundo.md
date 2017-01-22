@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Hola mundo
-published: true
+date: 2016-12-28 00:00:00 Z
+layout: post
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).

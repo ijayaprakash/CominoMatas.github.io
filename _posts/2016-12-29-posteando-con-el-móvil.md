@@ -1,12 +1,14 @@
 ---
-published: true
 title: Posteando desde el móvil
-categories: Web
+date: 2016-12-29 00:00:00 Z
+categories:
+- Web
 tags:
-  - Prose.io
-  - Markdown
-  - Jekyll
+- Prose.io
+- Markdown
+- Jekyll
 ---
+
 ![Markdown logo](https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg)
 
 #### Probando a postear desde el teléfono móvil
