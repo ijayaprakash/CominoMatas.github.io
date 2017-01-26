@@ -27,7 +27,7 @@ In a few minutes you'll be set up with a minimal, responsive blog like the one b
 - Fontawesome
 - Pagination
 - Categories and Tags pages
-- Disqus
+- Facebook comments (Disqus)
 - Google Analytics
 - Sitemap
 - Feed
