@@ -4,9 +4,26 @@
 	  
 	 <div class="card-block">
    
-     <div class="entry card-text">
-       		 {{ post.excerpt }}
-      </div>
+    
+    <div>
+
+      {% assign foundImage = 0 %}
+      {% assign images = post.content | split:"<img " %}
+      {% for image in images %}
+        {% if image contains 'src' %}
+
+            {% if foundImage == 0 %}
+                {% assign html = image | split:"/>" | first %}
+                <img {{ html }} />
+                {% assign foundImage = 1 %}
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+
+  
+    </div>
+ 
+  
           
       <h3 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       
