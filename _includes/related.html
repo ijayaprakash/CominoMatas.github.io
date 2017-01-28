@@ -1,12 +1,9 @@
 <div class="posts">
 {% for post in site.posts %}
   <article class="card"> 
-	  
-	 <div class="card-block">
-   
-    
+   <div class="card-block">
+     
     <div>
-
       {% assign foundImage = 0 %}
       {% assign images = post.content | split:"<img " %}
       {% for image in images %}
@@ -19,18 +16,11 @@
             {% endif %}
         {% endif %}
       {% endfor %}
-
-  
     </div>
- 
-  
-          
-      <h3 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      
-	  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more btn btn-primary">Seguir leyendo
-    		<i class="fa fa-chevron-right" aria-hidden="true"></i>
-    	  </a>
-	</div>
+	   
+     <h4 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+      	 
+   </div>
   </article>  
 {% endfor %}
 </div>
